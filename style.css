@@ -1,0 +1,23 @@
+#movies img, #movie img{
+  width:100%;
+}
+
+
+i{
+  width: 200px;
+  height: 200px;
+  justify-items: black;
+  display: flex;
+  cursor: pointer;
+
+}
+
+@media(min-width:960px){
+  #movies .col-md-3 .well{
+    height: 390px;
+  }
+
+  #movies .col-md-3 img{
+    height:240px;
+  }
+}
